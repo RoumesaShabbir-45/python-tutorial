@@ -1,53 +1,35 @@
-#variable print
-print("Hello, World!")
-print ("This is my first Python program.")
-print ("I am learning Python programming.")
-print (23+42)
-
-#identifiers(print types)
-name = "John"
-age = 25
-print(type(name))
-print(type(age))
-
-#boolean values
-age=23
-old=False
-a=None
-print(type(age))
-print(type(old))
-print(type(a))
-
-#case sensitivity
-a=10
-A=20
-sum=a+A
-difference=A-a
-print(sum)
-print(difference)
-
-#type conversion(type casting,type conversion)
-#int to float
-x = 5
-y = 2.5
-sum = x + y
-print(type(sum))
-
-#string to string
-x = "4"
-y = "5"
-sum = x + y
-print(type(sum))
-
-#type casting
-a= int(34)
-b=4.24
-sum = a + b
-print(type(sum))
-
-#float to string
-x = 5.34
-y = "2"
-sum=x + y
+#arithmetic operations
+x = 10
+y = 5
+print("Addition:", x + y)
+print("Subtraction:", x - y)
+print("Multiplication:", x * y)
+print("Division:", x / y)
+print("Modulus:", x % y)
+print("Exponentiation:", x ** y)
 
 
+#relational operations
+a=56
+b=78
+print("Equal:", a == b)
+print("Not Equal:", a != b)
+print("Greater than:", a > b)
+print("Less than:", a < b)
+print("Greater than or equal to:", a >= b)
+print("Less than or equal to:", a <= b)
+
+#assignment operations
+num=10
+num=num + 5
+print("number:", num)
+
+#logical operations(and, or)
+var1 = True
+var2 = False
+print("and:", var1 and var2)
+print("or:", var1 or var2)
+#not operation
+a=45
+b=34
+print("not:", not(a > b))
